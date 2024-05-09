@@ -290,6 +290,7 @@ a {
   font-family: Arial Narrow;
   font-weight: 700;
   font-size: 40px;
+  margin-top: 28px;
 }
 
 .support {
@@ -334,6 +335,7 @@ a {
   position: relative;
   left: -75px;
   top: -15px;
+  margin-top: 49px;
 }
 
 .fdet {
@@ -362,7 +364,7 @@ a {
   left: 45%;
   width: 50%;
   height: 1.3px;
-  top: 13%;
+  top: 5%;
   border: none;
   border-color: rgb(104, 102, 102);
   background-color: rgb(104, 102, 102);
@@ -376,6 +378,7 @@ a {
   line-height: 35px;
   position: relative;
   left: -14%;
+  top: 49px;
 }
 
 .cU .li1 .add {
@@ -387,11 +390,23 @@ a {
   font-family: Calibri;
   font-size: medium;
   line-height: 35px;
+  width: 293px;
+  height: 143px;
+  margin-top: 44px;
 }
 
 .cU p svg {
   padding-left: 15px;
   cursor: pointer;
+  margin-top: 16px;
+  /* margin: -2px; */
+  background-size: 20px;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
+  /* float: left; */
+  margin-left: -7px;
+  margin: -3px;
 }
 
 .qL {
@@ -415,7 +430,7 @@ a {
   left: 45%;
   width: 50%;
   height: 1.3px;
-  top: 13%;
+  top: 5%;
   border: none;
   border-color: rgb(104, 102, 102);
   background-color: rgb(104, 102, 102);
@@ -429,7 +444,7 @@ a {
   line-height: 35px;
   position: relative;
   left: -14%;
-  top: -9%;
+  top: 14%;
   float: left;
 }
 
@@ -466,7 +481,7 @@ a {
   left: 50%;
   width: 50%;
   height: 1.3px;
-  top: 13%;
+  top: 5%;
   border: none;
   border-color: rgb(104, 102, 102);
   background-color: rgb(104, 102, 102);
@@ -480,6 +495,7 @@ a {
   position: relative;
   left: -14%;
   cursor: pointer;
+  margin-top: 47px;
 }
 
 .wN .li3 .add1 {
@@ -541,7 +557,7 @@ a {
   left: 40%;
   width: 50%;
   height: 1.3px;
-  top: 13%;
+  top: 5%;
   border: none;
   border-color: rgb(104, 102, 102);
   background-color: rgb(104, 102, 102);
@@ -557,6 +573,7 @@ a {
   top: -2%;
   float: left;
   line-height: 27px;
+  margin-top: 50px;
 }
 
 .sub .email {
@@ -590,7 +607,7 @@ a {
 
 .sub .subs {
   background-color: rgb(255, 208, 0);
-  width: 42.5%;
+  width: 55.5%;
   height: 30px;
   padding: 10px;
   text-align: center;
