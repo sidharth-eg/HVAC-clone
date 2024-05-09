@@ -222,7 +222,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  margin: 50px;
+  /* margin: 0px; */
   padding-top: 70px;
 }
 .images{
@@ -232,6 +232,7 @@
 
 .smallimg {
     position: absolute;
+    margin-top: 120%;
     top: 230px;
     margin-left: 16%;
     border: 10px solid white;
@@ -240,15 +241,15 @@
 
 .text {
     margin-left: 150px;
+    /* background-color: #4586D5; */
+    /* margin: 10px; */
 }
-
 .para {
     font-size: 18px;
     color: #4586D5;
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
-
 }
 
 .head {
@@ -259,8 +260,8 @@
 }
 
 .paracontent {
-    font-family: "Mulish", sans-serif;
-    margin-right: 10%;
+        font-family: "Mulish", sans-serif;
+        margin-right: 10%;
 }
 
 list>li {
@@ -297,7 +298,6 @@ list>li {
 
 * {
     font-family: "Mulish", sans-serif;
-    ;
 }
 
 .test_head {

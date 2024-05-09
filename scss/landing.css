@@ -50,6 +50,15 @@
 .cards {
   width: 100%;
   height: 100%;
+  background-color: #FAD110;
+}
+
+svg {
+  margin: 15px;
+  background-size: 20px;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
 }
 
 .cardleft {
@@ -99,13 +108,24 @@
   /* padding: 20px; */
   font-family: "Courier New", Courier, monospace;
   text-align: center;
-  padding-top: 40px;
+  padding-top: 30px;
+}
+
+.class {
+  width: 70px;
+  height: 70px;
+  background-color: #FAD110;
+  position: absolute;
+  top: 530px;
+  left: 950px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 63%, 48% 100%, 0 61%);
+          clip-path: polygon(0 0, 100% 0%, 100% 63%, 48% 100%, 0 61%);
 }
 
 .square {
   width: 70px;
   height: 70px;
-  background-color: yellow;
+  background-color: #FAD110;
   position: absolute;
   top: 530px;
   left: 170px;
@@ -116,7 +136,7 @@
 .square1 {
   width: 70px;
   height: 70px;
-  background-color: rgb(16, 16, 9);
+  background-color: #FAD110;
   position: absolute;
   top: 530px;
   left: 570px;
@@ -127,7 +147,7 @@
 .square2 {
   width: 70px;
   height: 70px;
-  background-color: rgb(221, 221, 151);
+  background-color: #FAD110;
   position: absolute;
   top: 530px;
   left: 950px;
@@ -226,6 +246,14 @@ a {
   font-size: 20px;
   color: #4586D5;
   padding-left: 10px;
+}
+
+.footer11 {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+  position: absolute;
+  top: 3050px;
 }
 
 * {
