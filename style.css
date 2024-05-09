@@ -94,6 +94,8 @@
   
   .middle {
     width: 20%;
+    clip-path: polygon(0 0, 100% 0%, 100% 73%, 48% 100%, 0 71%);
+    background-color: black;
     background-size: contain;
     height: inherit;
     text-align: center;

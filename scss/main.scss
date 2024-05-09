@@ -17,11 +17,8 @@
 .our{
     height: 100%;
     width: 50%;
-    // background-color: rgb(204, 220, 220);
-    padding-top: 30px;
+    padding-top: 20px;
     padding-left: 30px;
-    // margin: 30px;
-    // padding-left: 20px;
 }
 .our .s{
     font-family: "Saira Condensed", sans-serif;
@@ -110,9 +107,31 @@
     height: 70px;
     background-color: yellow;
     position: absolute;
-    padding-left: 30px;
+    top: 530px;
+    left: 170px;
+    clip-path: polygon(0 0, 100% 0%, 100% 63%, 48% 100%, 0 61%);
 }
-
+.square1{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(16, 16, 9);
+  position: absolute;
+  top: 530px;
+  left: 570px;
+  clip-path: polygon(0 0, 100% 0%, 100% 63%, 48% 100%, 0 61%);
+}
+.square2{
+  width: 70px;
+  height: 70px;
+  background-color: rgb(221, 221, 151);
+  position: absolute;
+  top: 530px;
+  left: 950px;
+  clip-path: polygon(0 0, 100% 0%, 100% 63%, 48% 100%, 0 61%);
+}
+.square i{
+  position: absolute;
+}
 .mr{
     font-size: 20px;
     font-family: "Saira Condensed", sans-serif; 
