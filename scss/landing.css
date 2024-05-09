@@ -33,6 +33,7 @@
 .con {
   height: 100%;
   width: 50%;
+  margin-right: 100px;
 }
 
 .get {
@@ -40,10 +41,10 @@
   font-family: "Saira Condensed", sans-serif;
   color: rgb(128, 128, 225);
   font-weight: 600;
-  margin: 30px;
-  width: 130px;
+  margin: 20px;
+  width: 160px;
   height: 50px;
-  padding: 10px;
+  padding: 15px;
   margin-left: 400px;
 }
 
@@ -294,7 +295,7 @@ a {
 }
 
 .support {
-  width: 50%;
+  width: 40%;
   height: inherit;
   float: left;
   position: relative;
@@ -310,7 +311,7 @@ a {
 }
 
 .support .down-contact {
-  width: 70%;
+  width: 60%;
   height: inherit;
   float: left;
 }
