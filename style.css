@@ -61,6 +61,7 @@
     color: #ffffff;
     font-weight: 600;
     letter-spacing: 2px;
+    cursor: pointer;
     text-transform: uppercase;
 }
 
@@ -81,7 +82,7 @@
 }
 
 .navbar {
-    background-color: black;
+    background-color: #142336;
     width: 100%;
     height: 100px;
     font-family: "Saira Condensed", sans-serif;
@@ -100,7 +101,7 @@
 .middle {
     width: 180px;
     clip-path: polygon(0 0, 100% 0%, 100% 73%, 48% 100%, 0 71%);
-    background-color: black;
+    background-color: #142336;
     background-size: contain;
     height: inherit;
     text-align: center;
@@ -108,6 +109,11 @@
     float: left;
 
 }
+.get{
+  text-align: center;
+
+}
+
 
 .middle hr {
     color: white;
@@ -210,7 +216,8 @@
 .contact-number p {
     margin-top: 4px;
     font-size: 24px;
-    font-weight: 600;
+    font-family: "Mulish", sans-serif;
+    font-weight: 700;
     margin-left: 12px;
     color: #4586D5;
 }
@@ -224,6 +231,7 @@
   display: flex;
   /* margin: 0px; */
   padding-top: 70px;
+  margin-left: 33px;
 }
 .images{
   width: 40%;
@@ -233,7 +241,7 @@
 .smallimg {
     position: absolute;
     margin-top: 120%;
-    top: 230px;
+    top: 160px;
     margin-left: 16%;
     border: 10px solid white;
 
@@ -261,11 +269,24 @@
 
 .paracontent {
         font-family: "Mulish", sans-serif;
+        padding-top: 13px;
         margin-right: 10%;
+        line-height: 27px;
+    margin: 0 0 15px 0;
 }
 
-list>li {
+.fan{
+  position: absolute;
+  margin-left: 48%;
+}
+
+.list>li {
     margin: 10px;
+    list-style: none;
+}
+.tick{
+  height: 16px;
+  width:  16px;
 }
 
 .getintouch {
@@ -274,16 +295,17 @@ list>li {
     font-weight: 600;
     background: transparent;
     margin-top: 14px;
+    cursor: pointer;
     color: #4586D5;
     border: 2px solid #FAD110;
     padding: 14px 36px 12px;
 }
 
 .testimonial {
-    margin-top: 190px;
+    margin-top: 100px;
     width: 100%;
     color: white;
-    height: 240px;
+    height: 50%;
     background-image: url('./newlogos/installation.webp');
     background-repeat: no-repeat;
     background-size: cover;
