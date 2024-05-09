@@ -1,65 +1,79 @@
 
+
 .qoute{
-    width: 100%;
-    height: 596px;
-    background-color: #4586D5;
+  width: 100%;
+  height: 596px;
+  background-color: #4586D5;
 }
 .qoute_form{
-    width: 450px;
-    height: 431px;
-    margin-left: 98px;
-    padding: 85px 15px 80px 15px;
-    float: left;
+  width: 450px;
+  height: 431px;
+  margin-left: 16px;
+  padding: 55px 15px 80px 15px;
+  float: left;
 }
 .qoute_vedio{
-    width: 594px;
-    height: 596px;
-    background-image: url('newlogos/quote-video.jpg.webp');
-    float:right;
+  width: 594px;
+  height: 596px;
+  background-image: url('newlogos/quote-video.jpg.webp');
+  float:right;
+  background-position-x: -166px;
 }
 
 .qoute_form h2{
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-bottom: 40px;
-    font-family:"Saira Condensed", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 40px;
+  font-family:"Saira Condensed", sans-serif;
 }
-form{
-    color: #ffffff;
-}
+
 .row input {
-    height: 46px;
-    width: 100%;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    padding-left: 20px;
-    font-size: 15px;
-    color: #ffffff;
-    background: transparent;
-    margin-bottom: 30px;
+  height: 46px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  padding-left: 20px;
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  margin-bottom: 30px;
 }
 .nam-row{
-    float: left;
+  float: left;
 }
 .phone-row{
-    float:right;
+  float:right;
 }
 
 .row{
-    width: 100%;
+  width: 100%;
 }
 
 .btn{
-    border: none;
-    display: inline-block;
-    padding: 14px 30px;
-    background: #FAD110;
-    font-size: 16px;
-    font-family: "Saira Condensed", sans-serif;
-    color: #ffffff;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+  border: none;
+  display: inline-block;
+  padding: 14px 30px;
+  background: #FAD110;
+  font-size: 16px;
+  font-family: "Saira Condensed", sans-serif;
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.message-row{
+  height: 110px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 15px;
+  color: #ffffff;
+  background: transparent;
+  margin-bottom: 24px;
+  padding-top: 12px;
+  resize: none;
+}
+::placeholder {
+  color: #ffffff;
 }
 
 .navbar {
