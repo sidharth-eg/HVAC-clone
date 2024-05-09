@@ -1,11 +1,14 @@
+$width:100%;
+$height:100%;
+
 .content{
-    width: 100%;
-    height: 100%;
+    width: $width;
+    height: $height;
     // background-color: #b30c0f;
 }
 
 .our-service{
-    width: 100%;
+    width: $width;
     height: 30%;
     // background-color: #e76615;
     display: flex;
@@ -15,7 +18,7 @@
 }
 
 .our{
-    height: 100%;
+    height: $height;
     width: 50%;
     padding-top: 20px;
     padding-left: 30px;
@@ -31,8 +34,9 @@
     margin: 10px;
 }
 .con{
-    height: 100%;
+    height: $height;
     width: 50%;
+    margin-right: 100px;
 }
 .get{
     border: 2px solid yellow;
@@ -47,9 +51,16 @@
 }
 .cards {
     width: 100%;
-    height: 100%;
+    height: 90%;
   }
-  
+  svg{
+    margin: 15px;
+    // background-color: azure;
+    background-size: 20px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+  }
   .cardleft {
     width: 30%;
     height: 450px;
@@ -69,6 +80,7 @@
     margin-left: 2%;
     float: left;
     box-shadow: 5px 10px 18px #888888;
+    border: none;
   }
   
   .cardright {
@@ -80,6 +92,7 @@
     float: left;
     margin-bottom: 30px;
     box-shadow: 5px 10px 18px #888888;
+    border: none;
   }
   
   .cheader {
@@ -99,13 +112,22 @@
     // font-weight: 800;
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
   }
  
+.class{
+   width: 70px;
+  height: 70px;
+  background-color: #FAD110;
+  position: absolute;
+  top: 530px;
+  left: 950px;
+  clip-path: polygon(0 0, 100% 0%, 100% 63%, 48% 100%, 0 61%);
+}
 .square{
     width: 70px;
     height: 70px;
-    background-color: yellow;
+    background-color: #FAD110;
     position: absolute;
     top: 530px;
     left: 170px;
@@ -114,7 +136,7 @@
 .square1{
   width: 70px;
   height: 70px;
-  background-color: rgb(16, 16, 9);
+  background-color: #FAD110;
   position: absolute;
   top: 530px;
   left: 570px;
@@ -123,7 +145,7 @@
 .square2{
   width: 70px;
   height: 70px;
-  background-color: rgb(221, 221, 151);
+  background-color: #FAD110;
   position: absolute;
   top: 530px;
   left: 950px;

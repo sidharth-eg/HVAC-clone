@@ -1,0 +1,368 @@
+.footer {
+    background-color: #132231;
+    height: 550px;
+    width: 100%;
+    gap: 10px;
+  }
+   
+  .up-contact-us {
+    background-color: rgb(51, 126, 206);
+    height: 150px;
+    width: 93%;
+    margin: auto;
+    position: relative;
+    top: -13%;
+    float: auto;
+  }
+   
+  .contactdesc {
+    width: 50%;
+    height: inherit;
+    float: left;
+    position: relative;
+    left: 45px;
+    top: 30px;
+    line-height: 7px;
+  }
+  .contactdesc .p1 {
+    font-size: 17px;
+    text-align: left;
+    font-family: "Lucida Sans";
+    color: rgb(255, 208, 0);
+  }
+  .contactdesc .p2 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: Arial Narrow;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 28px;   
+  }
+   
+  .support {
+    width: 40%;
+    height: inherit;
+    float: left;
+    position: relative;
+    left: 45px;
+    top: 35px;
+    line-height: 7px;
+  }
+  .support .image {
+    width: 30%;
+    height: inherit;
+    float: left;
+  }
+  .support .down-contact {
+    width: 60%;
+    height: inherit;
+    float: left;
+  }
+  .support .down-contact .p3 {
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    font-family: "Lucida Sans";
+    position: relative;
+    left: -75px;
+  }
+  .support .down-contact .p4 {
+    color: rgb(255, 208, 0);
+    font-size: 30px;
+    text-align: left;
+    font-family: Gill Sans;
+    font-weight: 500;
+    font-stretch: wider;
+    font-size: 50px;
+    position: relative;
+    left: -75px;
+    top: -15px;
+    margin-top: 49px;
+  }
+   
+  .fdet {
+    position: relative;
+    top: -5%;
+  }
+   
+  .cU {
+    text-align: left;
+    width: 22%;
+    height: 275px;
+    float: left;
+    position: relative;
+    left: 3%;
+    top: -5%;
+  }
+  .cU h4 {
+    color: white;
+    font-family: "Franklin Gothic Medium";
+    font-size: 23px;
+  }
+  .cU hr {
+    position: absolute;
+    left: 45%;
+    width: 50%;
+    height: 1.3px;
+    top: 5%;
+    border: none;
+    border-color: rgb(104, 102, 102);
+    background-color: rgb(104, 102, 102);
+  }
+  .cU .li1 {
+    list-style: none;
+    color: rgb(154, 152, 152);
+    font-family: Calibri;
+    font-size: 17px;
+    line-height: 35px;
+    position: relative;
+    left: -14%;
+    top: 49px;
+  }
+  .cU .li1 .add {
+    line-height: 20px;
+  }
+  .cU p {
+    color: rgb(154, 152, 152);
+    font-family: Calibri;
+    font-size: medium;
+    line-height: 35px;
+    width: 293px;
+    // background-color: green;
+    height: 143px;
+    margin-top: 44px;
+  }
+  .cU p svg {
+    padding-left: 15px;
+    cursor: pointer;
+    margin-top: 16px;
+    /* margin: -2px; */
+    background-size: 20px;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    /* float: left; */
+    margin-left: -7px;
+    margin: -3px;
+  }
+   
+  .qL {
+    text-align: left;
+    width: 22%;
+    height: 275px;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: -5%;
+  }
+  .qL h4 {
+    color: white;
+    font-family: "Franklin Gothic Medium";
+    font-size: 23px;
+  }
+  .qL hr {
+    position: absolute;
+    left: 45%;
+    width: 50%;
+    height: 1.3px;
+    top: 5%;
+    border: none;
+    border-color: rgb(104, 102, 102);
+    background-color: rgb(104, 102, 102);
+  }
+  .qL .li1 {
+    list-style: none;
+    color: rgb(154, 152, 152);
+    font-family: Calibri;
+    font-size: 17px;
+    line-height: 35px;
+    position: relative;
+    left: -14%;
+    top: 14%;
+    float: left;
+  }
+  .qL .li2 {
+    list-style: none;
+    color: rgb(154, 152, 152);
+    font-family: Calibri;
+    font-size: 17px;
+    line-height: 35px;
+    position: absolute;
+    right: 13%;
+    top: 23%;
+    float: left;
+  }
+   
+  .wN {
+    text-align: left;
+    width: 22%;
+    height: 275px;
+    float: left;
+    position: relative;
+    left: 7%;
+    top: -5%;
+  }
+  .wN h4 {
+    color: white;
+    font-family: "Franklin Gothic Medium";
+    font-size: 23px;
+  }
+  .wN hr {
+    position: absolute;
+    left: 50%;
+    width: 50%;
+    height: 1.3px;
+    top: 5%;
+    border: none;
+    border-color: rgb(104, 102, 102);
+    background-color: rgb(104, 102, 102);
+  }
+  .wN .li3 {
+    list-style: none;
+    color: rgb(154, 152, 152);
+    font-family: Calibri;
+    font-size: 17px;
+    position: relative;
+    left: -14%;
+    cursor: pointer;
+    margin-top: 47px;
+  }
+  .wN .li3 .add1 {
+    height: 80px;
+  }
+  .wN .li3 .add1 .img1 {
+    float: left;
+  }
+  .wN .li3 .add1 .p1 {
+    line-height: 27px;
+    position: relative;
+    left: 10%;
+  }
+  .wN .li3 .add1 .p1 span {
+    color: rgb(154, 152, 152);
+    font-family: "Franklin Gothic Medium";
+    font-size: 19px;
+    line-height: 10px;
+  }
+  .wN .li3 .img2 {
+    float: left;
+  }
+  .wN .li3 .p2 {
+    line-height: 27px;
+    position: relative;
+    left: 10%;
+  }
+  .wN .li3 .p2 span {
+    color: rgb(154, 152, 152);
+    font-family: "Franklin Gothic Medium";
+    font-size: 19px;
+    line-height: 10px;
+  }
+   
+  .sub {
+    text-align: left;
+    width: 22%;
+    height: 275px;
+    float: left;
+    position: relative;
+    left: 10%;
+    top: -5%;
+  }
+  .sub h4 {
+    color: white;
+    font-family: "Franklin Gothic Medium";
+    font-size: 23px;
+  }
+  .sub hr {
+    position: absolute;
+    left: 40%;
+    width: 50%;
+    height: 1.3px;
+    top: 5%;
+    border: none;
+    border-color: rgb(104, 102, 102);
+    background-color: rgb(104, 102, 102);
+  }
+  .sub .lorem {
+    text-align: left;
+    color: rgb(154, 152, 152);
+    font-family: Calibri;
+    font-size: 17px;
+    line-height: 35px;
+    position: relative;
+    top: -2%;
+    float: left;
+    line-height: 27px;
+    margin-top: 50px;
+
+  }
+  .sub .email {
+    position: relative;
+    top: 10px;
+  }
+  .sub .email input {
+    background: none;
+    border: 1px solid rgb(154, 152, 152);
+    padding: 10px;
+    width: 85%;
+    height: 25px;
+  }
+  .sub .email ::-moz-placeholder {
+    font-family: Calibri;
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .sub .email ::placeholder {
+    font-family: Calibri;
+    font-size: 17px;
+    padding-left: 10px;
+  }
+  .sub .email input:focus {
+    outline: none;
+  }
+  .sub .subs {
+    background-color: rgb(255, 208, 0);
+    width:  55.5%;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+    font-family: monospace;
+    font-size: larger;
+    float: left;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .sub .subs p {
+    position: relative;
+    top: -30%;
+  }
+   
+  .cpr {
+    position: relative;
+    top: 40px;
+    left: 2.5%;
+    text-align: center;
+    color: rgb(154, 152, 152);
+    width: 95%;
+    height: 85px;
+    float: left;
+    border-top: 1px solid rgb(154, 152, 152);
+  }
+  .cpr p {
+    position: relative;
+    top: 15%;
+    font-size: 17px;
+    font-family: Calibri;
+    font-weight: 400;
+  }
+  // svg{
+  //   width: 20px;
+  //   height: 20px;
+
+  // }
+  .cpr p span {
+    color: rgb(255, 208, 0);
+  }/*# sourceMappingURL=footer.css.map */
