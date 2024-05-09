@@ -79,6 +79,119 @@
 ::placeholder {
     color: #ffffff;
 }
+/* testimonial original section  */
+
+.testo-pad{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.testo-container{
+    margin-left: 114px;
+    margin-right: 114px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.testo-row{
+    width: 960px;
+    height: 132px;
+    text-align: center;
+}
+.testo-rows{
+    display: flex;
+}
+.testo-row span{
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    color: #4586D5;
+    font-weight: 700;
+    letter-spacing: 2px;
+    display: block;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.testo-row h2{
+    font-family: "Saira Condensed", sans-serif;
+    font-size: 40px;
+    color: #142336;
+    font-weight: 600;
+}
+.testo-row2{
+    width: 960px;
+    height: 584.67;
+}
+.testo-cardbase{
+    width: 320px;
+    height: 504.46px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.testo-content{
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(74, 103, 141, 0.16);
+    padding: 40px 50px 45px;
+    margin-bottom: 36px;
+    border-top: 5px solid rgba(69, 134, 213, 0.2);
+    transition: all, 0.3s;
+}
+.testo-content p{
+    font-size: 18px;
+    color: #142336;
+    line-height: 35px;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.testo-author{
+    padding-left: 20px;
+}
+.testo-author-pic{
+    float: left;
+    margin-right: 25px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    background-image: url(https://preview.colorlib.com/theme/hvacompany/img/testimonial/ta-2.png.webp);
+}
+.testo-author-pic-2{
+    float: left;
+    margin-right: 25px;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    background-image: url(https://preview.colorlib.com/theme/hvacompany/img/testimonial/ta-1.png.webp);
+}
+.testo-author-text span{
+    font-size: 14px;
+    color: #4586D5;
+    display: block;
+    font-style: italic;
+    font-family: "Mulish", sans-serif;
+}
+.testo-author-text h4{
+    font-family: "Saira Condensed", sans-serif;
+}
+.slider-dott{
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slider-dot{
+    width: 50px;
+    height: 4px;
+    background-color: black;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.slider-dot-1{
+    width: 50px;
+    height: 4px;
+    background-color: #c4c4c4;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+.slider-dot button {
+    background-color: #142336;;
+}
 
 .navbar {
     background-color: black;
