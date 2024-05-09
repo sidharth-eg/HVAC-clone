@@ -1,0 +1,115 @@
+.navbar {
+  background-color: black;
+  width: 100%;
+  height: 100px;
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 200px;
+}
+
+.left {
+  width: 40%;
+  background-color: white;
+  height: inherit;
+  float: left;
+}
+
+.middle {
+  width: 20%;
+  background-size: contain;
+  height: inherit;
+  text-align: center;
+  margin-top: 30px;
+  float: left;
+}
+
+.right {
+  width: 40%;
+  background-color: white;
+  height: inherit;
+  float: left;
+}
+
+.icon {
+  height: inherit;
+  width: 25%;
+  padding: 40px;
+  padding-left: 15px;
+  float: left;
+}
+
+.icons {
+  height: 30px;
+  width: 140px;
+  margin: auto;
+}
+
+.left-menu ul {
+  margin-top: 36px;
+  margin-right: 27px;
+  text-align: right;
+}
+.left-menu li {
+  display: inline;
+  border: 1px solid black;
+  margin-left: 5px;
+  font-size: 17px;
+  padding: 5px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  color: #142336;
+}
+.left-menu li a {
+  text-decoration: none;
+}
+
+.icons .ic {
+  margin: 0px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.right-menu {
+  width: 64%;
+  float: left;
+}
+.right-menu ul {
+  margin-top: 36px;
+  margin-right: auto;
+  text-align: center;
+}
+.right-menu li {
+  display: inline;
+  border: 1px solid black;
+  margin-left: 15px;
+  font-size: 17px;
+  padding: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-left: -17px;
+  color: #142336;
+}
+.right-menu li a {
+  text-decoration: none;
+}
+
+.right-contact {
+  width: 36%;
+  height: inherit;
+  float: left;
+}
+
+.contact-number {
+  margin-top: 19px;
+  width: 100%;
+  height: 50px;
+  padding-top: 7px;
+  border: 2px solid #FAD110;
+}
+.contact-number p {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
