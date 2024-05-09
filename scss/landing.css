@@ -255,6 +255,7 @@ a {
   height: 550px;
   width: 100%;
   gap: 10px;
+  margin-top: 148px;
 }
 
 .up-contact-us {
@@ -311,7 +312,7 @@ a {
 }
 
 .support .down-contact {
-  width: 60%;
+  width: 66%;
   height: inherit;
   float: left;
 }
@@ -378,7 +379,7 @@ a {
   font-size: 17px;
   line-height: 35px;
   position: relative;
-  left: -14%;
+  left: -11%;
   top: 49px;
 }
 
