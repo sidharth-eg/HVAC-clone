@@ -217,18 +217,17 @@
 
 /*# sourceMappingURL=index.css.map */
 
-
-.row1 {
-    width: 100%;
-    height: 380px;
-    display: flex;
-
-    margin: 25px;
+  
+.row1{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 50px;
+  padding-top: 70px;
 }
-
-.images {
-    width: 40%;
-    height: inherit;
+.images{
+  width: 40%;
+  height: 500px;
 }
 
 .smallimg {
