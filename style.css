@@ -196,3 +196,105 @@
     font-weight: 600;
     margin-left: 18px;
   }/*# sourceMappingURL=index.css.map */
+
+  
+.row1{
+  width: 100%;
+  height: 380px;
+  display: flex;
+  
+  margin: 25px;
+}
+.images{
+  width: 40%;
+  height: inherit;
+}
+.smallimg{
+  position: absolute;
+  top: 230px;
+  margin-left: 16%;
+  border: 10px solid white;
+  
+}
+.text{
+  margin-left: 150px;
+}
+
+.para{
+  font-size: 18px;
+  color: #4586D5;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+}
+.head{
+  font-size: 40px;
+  color: #142336;
+  font-weight: 600;
+  font-family: "Saira Condensed", sans-serif;
+}
+.paracontent{
+  font-family: "Mulish", sans-serif;
+  margin-right: 10%;
+}
+list>li{
+  margin: 10px;
+}
+.getintouch{
+  font-family:  "Saira Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background :transparent;
+  margin-top: 14px;
+  color: #4586D5;
+  border: 2px solid #FAD110;
+  padding: 14px 36px 12px;
+}
+
+.testimonial{
+  margin-top: 190px;
+  width: 100%;
+  color: white;
+  height: 240px;
+  background-image: url('./newlogos/installation.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+*{
+  font-family: "Mulish", sans-serif;;
+}
+.test_head{
+ 
+  font-size: 20px;
+  font-weight: bold;
+}
+.testmainhead{
+  font-family: "Saira Condensed", sans-serif;
+  font-size: 40px;
+  margin-top: 0px;
+  
+}
+.installbtn{
+  display: inline-block;
+  font-size: 18px;
+  color: #142336;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background: #FAD110;
+  padding: 14px 36px 12px;
+}
+.installbtn:hover{
+  color: white;
+  cursor: pointer;
+}
