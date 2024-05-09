@@ -42,7 +42,7 @@
 }
 
 .support {
-  width: 50%;
+  width: 40%;
   height: inherit;
   float: left;
   position: relative;
@@ -58,7 +58,7 @@
 }
 
 .support .down-contact {
-  width: 70%;
+  width: 60%;
   height: inherit;
   float: left;
 }
