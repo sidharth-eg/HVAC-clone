@@ -233,7 +233,7 @@
 .smallimg {
     position: absolute;
     margin-top: 120%;
-    top: 230px;
+    top: -30px;
     margin-left: 16%;
     border: 10px solid white;
 
