@@ -143,6 +143,19 @@
 .testo-author{
     padding-left: 20px;
 }
+.testo-author-pic:before,.testo-author-pic-2::before{
+    position: absolute;
+    left: 0;
+    top: -36px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #ffffff;
+    content: "";
+    margin: 0 auto
+}
 .testo-author-pic{
     float: left;
     margin-right: 25px;
