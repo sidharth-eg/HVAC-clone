@@ -94,7 +94,7 @@
     top: -5%;
   }
    
-  .cU {
+  .cont-us {
     text-align: left;
     width: 22%;
     height: 275px;
@@ -103,12 +103,12 @@
     left: 3%;
     top: -5%;
   }
-  .cU h4 {
+  .cont-us h4 {
     color: white;
     font-family: "Franklin Gothic Medium";
     font-size: 23px;
   }
-  .cU hr {
+  .cont-us hr {
     position: absolute;
     left: 45%;
     width: 50%;
@@ -118,20 +118,21 @@
     border-color: rgb(104, 102, 102);
     background-color: rgb(104, 102, 102);
   }
-  .cU .li1 {
+  .cont-us .li1 {
     list-style: none;
     color: rgb(154, 152, 152);
     font-family: Calibri;
     font-size: 17px;
+    margin-left: 11%;
     line-height: 35px;
     position: relative;
     left: -11%;
     top: 49px;
   }
-  .cU .li1 .add {
+  .cont-us .li1 .add {
     line-height: 20px;
   }
-  .cU p {
+  .cont-us p {
     color: rgb(154, 152, 152);
     font-family: Calibri;
     font-size: medium;
@@ -141,7 +142,7 @@
     height: 143px;
     margin-top: 44px;
   }
-  .cU p svg {
+  .cont-us p svg {
     padding-left: 15px;
     cursor: pointer;
     margin-top: 16px;
@@ -184,6 +185,7 @@
     color: rgb(154, 152, 152);
     font-family: Calibri;
     font-size: 17px;
+    margin-left: 13%;
     line-height: 35px;
     position: relative;
     left: -14%;
@@ -231,6 +233,7 @@
     color: rgb(154, 152, 152);
     font-family: Calibri;
     font-size: 17px;
+    margin-left: 13%;
     position: relative;
     left: -14%;
     cursor: pointer;
