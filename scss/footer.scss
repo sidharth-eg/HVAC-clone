@@ -197,6 +197,7 @@
     color: rgb(154, 152, 152);
     font-family: Calibri;
     font-size: 17px;
+    padding-left: 2%;
     line-height: 35px;
     position: absolute;
     right: 13%;
@@ -270,7 +271,10 @@
     font-size: 19px;
     line-height: 10px;
   }
-   
+  .ri-heart-3-fill{
+      color: rgb(255, 208, 0);
+  }
+  
   .sub {
     text-align: left;
     width: 22%;
